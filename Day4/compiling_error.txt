@@ -1,0 +1,16 @@
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp:46:1: error: expected unqualified-id before ‘if’
+ if (totalscore >= 90)
+ ^~
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp:50:1: error: expected unqualified-id before ‘else’
+ else
+ ^~~~
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp: In function ‘int main()’:
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp:133:51: error: too many arguments to function ‘float compute_totalscore(float)’
+ totalscore = compute_totalscore(totalscore, infile);
+                                                   ^
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp:36:7: note: declared here
+ float compute_totalscore(float totalscore)
+       ^~~~~~~~~~~~~~~~~~
+/home/kaushal/Desktop/100_days_of_CODE/Day4/main.cpp:135:54: error: cannot convert ‘std::ofstream {aka std::basic_ofstream<char>}’ to ‘float’ for argument ‘6’ to ‘void printRecord(char*, char*, float, float, float, float, std::ostream&)’
+ printRecord(name, Id, hwp, tests, totalscore, outfile);
+                                                      ^
