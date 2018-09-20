@@ -21,6 +21,7 @@ void Display()
 {
   cout<<"your sum is:";
   cout<<sum;
+  cout<<"hello";
   }
 
 };
